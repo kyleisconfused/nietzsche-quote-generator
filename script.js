@@ -12,7 +12,6 @@ const quotes = [
   "The thought of suicide is a great consolation: by means of it one gets through many a dark night.",
   "Thoughts are the shadows of our feelings -- always darker, emptier and simpler.",
   "Man is the cruelest animal.",
-  "Stinky balls are the true measure of a man.",
   "My name is Freddy Nachos and welcome to Jackass!",
   "The Birth of Tragedy was lowkey the worst shit I ever wrote.",
   "My sister was the nazi, not me!!",
