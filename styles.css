@@ -24,7 +24,7 @@ h1 {
   display: flex;
   margin-top: 3rem;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px #000;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
 .quote-box {
