@@ -2,7 +2,7 @@
 ## A random quote generator for Friedrich Nietzsche. 
 ### Not all quotes are genuine.
 
-A very simple beginner project from a very simply beginner.
+A very simple beginner project from a very simple beginner.
 Project includes:
   -An HTML file
   -A CSS file
