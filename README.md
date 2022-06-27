@@ -1,6 +1,6 @@
 # nietzsche-quote-generator
-# H1 A random quote generator for Friedrich Nietzsche. 
-# H2 Not all quotes are genuine.
+## A random quote generator for Friedrich Nietzsche. 
+### Not all quotes are genuine.
 
 A very simple beginner project from a very simply beginner.
 Project includes:
