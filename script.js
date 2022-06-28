@@ -1,6 +1,10 @@
+"use strict";
+
+// Grabbing some elements
 const btn = document.querySelector(".btn");
 const quoteDisplay = document.querySelector(".quote-display");
 
+// Quotes array
 const quotes = [
   "Without music, life would be a mistake.",
   "It is not a lack of love, but a lack of friendship that makes unhappy marriages.",
@@ -17,14 +21,18 @@ const quotes = [
   "My sister was the nazi, not me!!",
   "I love to eat Big Mac hamburger",
   "Tartinade au fromage à la crème.",
-  "Stinky binky got no winky touch my dick and make it stinky (yuh yuh yuh yuh)",
-  "This shit bussin' bussin' no cap not even trolling",
-  "I love peanut 💜",
-  "I got my head out the sunroof, I'm blasting my favourite tunes",
-  "Chinese Elon Musk is superior to that Tesla one",
+  "I got my head out the sunroof, I'm blasting my favourite tunes.",
+  "When you gaze into the abyss, the abyss also gazes into you.",
+  "There are no facts, only interpretations.",
+  "When we are tired, we are attacked by ideas we conquered long ago.",
+  "Art is the proper task of life.",
+  "You like my hair? Gee, thanks, just bought it.",
+  "Yeah, I'm gonna take my horse to the old town road.",
+  "Bring a bucket and a mop.",
 ];
 
-const newQuote = function () {
+// Main function and Event Handler
+const newQuote = () => {
   let randomNumber = Math.floor(Math.random() * quotes.length);
   quoteDisplay.innerHTML = quotes[randomNumber];
 };
