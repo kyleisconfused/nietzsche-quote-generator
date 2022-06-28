@@ -9,14 +9,20 @@
   --text-color: rgb(222, 220, 220);
 }
 
+/********************************
+/*     MAIN PAGE ELEMENTS
+*********************************/
+
 body {
-  background-color: #333;
+  background-color: rgb(51, 51, 51);
 }
 
 h1 {
   text-align: center;
   margin-top: 2rem;
   color: var(--text-color);
+  text-transform: uppercase;
+  font-size: 2.5rem;
 }
 
 .hero-img {
@@ -24,8 +30,19 @@ h1 {
   display: flex;
   margin-top: 3rem;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  box-shadow: 1px 2px 30px 0px rgb(0, 0, 0);
 }
+
+.disclaimer {
+  color: var(--text-color);
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+/********************************
+/*     QUOTE BOX
+*********************************/
 
 .quote-box {
   height: 15rem;
@@ -34,14 +51,25 @@ h1 {
   margin: 4rem auto 0rem auto;
   border-radius: 10px;
   display: flex;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .quote-box::before {
   content: "''";
-  color: #fff;
-  font-size: 7rem;
+  color: var(--text-color);
+  font-size: 10rem;
+  font-family: "Spirax", cursive;
   position: absolute;
-  top: 25rem;
+  top: 24.5rem;
+}
+
+.quote-display {
+  margin: auto;
+  height: 10rem;
+  width: 21rem;
+  color: var(--text-color);
+  font-size: 1.3rem;
+  text-align: center;
 }
 
 .btn {
@@ -52,26 +80,15 @@ h1 {
   padding: 7px;
   border-radius: 10px;
   cursor: pointer;
-  background-color: rgb(200, 197, 197);
+  background-color: rgb(211, 211, 211);
   position: absolute;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .btn:hover {
-  background-color: rgb(169, 167, 167);
+  background-color: rgb(189, 189, 189);
 }
 
-.quote-display {
-  margin: auto;
-  height: 10rem;
-  width: 20rem;
-  color: var(--text-color);
-  font-size: 1.2rem;
-  text-align: center;
-}
-
-.disclaimer {
-  color: var(--text-color);
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
+.btn:active {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
