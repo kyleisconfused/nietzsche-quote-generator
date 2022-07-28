@@ -10,4 +10,4 @@ Project includes:
   * A JavaScript file
   * A single image (wow!)
   
-This isn't hosted anywhere aside from gitHub, so if you want to see this in action, you'll have to download the files and open the index.html file in your browser of choice.
+Live demo [here!](https://kyleisconfused.github.io/nietzsche-quote-generator/)
