@@ -9,5 +9,3 @@ Project includes:
   * A CSS file
   * A JavaScript file
   * A single image (wow!)
-  
-Live demo [here!](https://kyleisconfused.github.io/nietzsche-quote-generator/)
